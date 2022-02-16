@@ -42,6 +42,8 @@ private: // seccion privada
   ros::NodeHandle nh_cmd_vel_bebop; // Creamos un objeto de la clase ros::NodeHandle llamado  nh_
   ros::NodeHandle nh_takeoff_bebop; // Creamos un objeto de la clase ros::NodeHandle llamado  nh_
   ros::NodeHandle nh_land_bebop; // Creamos un objeto de la clase ros::NodeHandle llamado  nh_
+
+  // tipos de variables
   bool open_; // Creamos un objeto de tipo boleano
   bool fly_active;
   bool once_fly;
@@ -55,6 +57,7 @@ private: // seccion privada
   int event_count_; // creamos un objeto de tipo int llamado event_count_
   int pub_count_; // creamos un objeto de tipo int llamado pub_count_
   int queue_size;
+
   ros::Publisher pub_; // creamos un objeto de la clase ros de tipo Publisher llamado pub_
   ros::Publisher pub_bebop_camera; // creamos un objeto de la clase ros de tipo Publisher llamado pub_ /****** DEFINIR NUEVO OBJETO ros::Publisher objeto**************************************//
   ros::Publisher pub_bebop_cmd_vel;
