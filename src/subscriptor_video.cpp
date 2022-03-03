@@ -2,12 +2,10 @@
 #include <image_transport/image_transport.h>
 #include <opencv2/highgui/highgui.hpp>
 #include <cv_bridge/cv_bridge.h>
-
-#include <ros/ros.h>
 #include <sensor_msgs/Imu.h>
-#include <sensor_msgs/MagneticField.h>
-#include <sensor_msgs/FluidPressure.h>
-#include <sensor_msgs/Temperature.h>
+// #include <sensor_msgs/MagneticField.h>
+// #include <sensor_msgs/FluidPressure.h>
+// #include <sensor_msgs/Temperature.h>
 
 void imageCallback(const sensor_msgs::ImageConstPtr& msg)
 {
